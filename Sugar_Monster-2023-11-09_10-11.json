@@ -1,0 +1,6196 @@
+{
+  "_version": "1.2",
+  "project": {
+    "_id": "64fb4f626c578d0008d85406",
+    "name": "Sugar Monster",
+    "teamID": "OoEKmK2Kja",
+    "devVersion": "64fb4f627b74118cd02727b0",
+    "platform": "alexa",
+    "type": "voice",
+    "platformData": {
+      "products": [],
+      "hasChannelIntents": true
+    },
+    "members": [],
+    "image": "",
+    "linkType": "STRAIGHT",
+    "customThemes": [],
+    "apiPrivacy": "private",
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_version": 1.2,
+    "updatedAt": "2023-11-06T18:53:01.642Z",
+    "updatedBy": 96493,
+    "creatorID": 96493,
+    "createdAt": "2023-09-08T16:44:18.000Z"
+  },
+  "version": {
+    "_id": "64fb4f627b74118cd02727b0",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "userQuestion",
+      "name",
+      "response",
+      "Daphne"
+    ],
+    "platformData": {
+      "slots": [
+        {
+          "key": "pv15h3o01",
+          "name": "entity_one",
+          "type": {
+            "value": "Custom"
+          },
+          "color": "#56b365",
+          "inputs": []
+        },
+        {
+          "key": "c41613o3j",
+          "name": "entity_two",
+          "type": {
+            "value": "Custom"
+          },
+          "color": "#616769",
+          "inputs": []
+        },
+        {
+          "key": "pjsi3o5l",
+          "name": "capture_username",
+          "type": {
+            "value": "Custom"
+          },
+          "color": "#dc8879",
+          "inputs": [
+            "{username}"
+          ]
+        },
+        {
+          "key": "hc26w3opu",
+          "name": "nname",
+          "type": {
+            "value": "Custom"
+          },
+          "color": "#616769",
+          "inputs": [
+            "{name}"
+          ]
+        }
+      ],
+      "intents": [
+        {
+          "key": "AMAZON.YesIntent",
+          "name": "AMAZON.YesIntent",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "uh huh",
+              "slots": []
+            },
+            {
+              "text": "yep",
+              "slots": []
+            },
+            {
+              "text": "yeah",
+              "slots": []
+            },
+            {
+              "text": "ya",
+              "slots": []
+            },
+            {
+              "text": "sure",
+              "slots": []
+            },
+            {
+              "text": "absolutely",
+              "slots": []
+            },
+            {
+              "text": "of course",
+              "slots": []
+            },
+            {
+              "text": "definitely",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "AMAZON.NoIntent",
+          "name": "AMAZON.NoIntent",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Nah",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "No way",
+              "slots": []
+            },
+            {
+              "text": "No thanks",
+              "slots": []
+            },
+            {
+              "text": "Not a chance",
+              "slots": []
+            },
+            {
+              "text": "No can do",
+              "slots": []
+            },
+            {
+              "text": "No chance",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "AMAZON.HelpIntent",
+          "name": "AMAZON.HelpIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.StopIntent",
+          "name": "AMAZON.StopIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "AMAZON.CancelIntent",
+          "name": "AMAZON.CancelIntent",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "id18g3j76",
+          "name": "good_food",
+          "inputs": [
+            {
+              "text": "bowl",
+              "slots": []
+            },
+            {
+              "text": "noodles",
+              "slots": []
+            },
+            {
+              "text": "bowl of noodles",
+              "slots": []
+            },
+            {
+              "text": "A bowl of noodles",
+              "slots": []
+            },
+            {
+              "text": "healthy",
+              "slots": []
+            },
+            {
+              "text": "sandwich",
+              "slots": []
+            },
+            {
+              "text": "healthy sandwich",
+              "slots": []
+            },
+            {
+              "text": "a healthy sandwich",
+              "slots": []
+            }
+          ],
+          "slots": []
+        },
+        {
+          "key": "zo1ai3jzg",
+          "name": "cotton_candy",
+          "inputs": [
+            {
+              "text": "cotton",
+              "slots": []
+            },
+            {
+              "text": "candy",
+              "slots": []
+            },
+            {
+              "text": "cotton candy",
+              "slots": []
+            }
+          ],
+          "slots": []
+        }
+      ],
+      "settings": {
+        "events": null,
+        "customInterface": false,
+        "session": {
+          "type": "restart"
+        },
+        "repeat": "ALL",
+        "accountLinking": null,
+        "error": null,
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {
+        "summary": "",
+        "invocations": [
+          "open sugar game one",
+          "start sugar game one",
+          "launch sugar game one"
+        ],
+        "smallIcon": "",
+        "largeIcon": "",
+        "hasAds": false,
+        "personal": false,
+        "forExport": true,
+        "invocationName": "sugar game one",
+        "hasPurchase": false,
+        "forChildren": false,
+        "description": "",
+        "instructions": "",
+        "privacyPolicy": "",
+        "termsAndConditions": "",
+        "keywords": "",
+        "category": "",
+        "locales": [
+          "en-US"
+        ],
+        "updatesDescription": null
+      },
+      "status": {
+        "stage": "DEV"
+      }
+    },
+    "_version": 4.07,
+    "name": "Initial Version",
+    "projectID": "64fb4f626c578d0008d85406",
+    "manualSave": false,
+    "autoSaveFromRestore": false,
+    "topics": [
+      {
+        "sourceID": "64fb4f637b74118cd02727b4",
+        "type": "DIAGRAM"
+      }
+    ],
+    "components": [
+      {
+        "sourceID": "64fb4f637b74118cd02727b2",
+        "type": "DIAGRAM"
+      },
+      {
+        "sourceID": "64fb4f637b74118cd02727b1",
+        "type": "DIAGRAM"
+      }
+    ],
+    "rootDiagramID": "64fb4f637b74118cd02727b4",
+    "domains": [
+      {
+        "id": "clgflziv32p3507rp8k4pe2px",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64fb4f637b74118cd02727b4"
+        ],
+        "rootDiagramID": "64fb4f637b74118cd02727b4",
+        "updatedAt": "2023-11-06T18:42:26.789Z",
+        "updatedBy": 96493
+      }
+    ],
+    "creatorID": 96493,
+    "prototype": {
+      "type": "voice",
+      "data": {
+        "name": "Sugar Monster",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "AMAZON.YesIntent",
+            "name": "AMAZON.YesIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "uh huh",
+                "slots": []
+              },
+              {
+                "text": "yep",
+                "slots": []
+              },
+              {
+                "text": "yeah",
+                "slots": []
+              },
+              {
+                "text": "ya",
+                "slots": []
+              },
+              {
+                "text": "sure",
+                "slots": []
+              },
+              {
+                "text": "absolutely",
+                "slots": []
+              },
+              {
+                "text": "of course",
+                "slots": []
+              },
+              {
+                "text": "definitely",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.NoIntent",
+            "name": "AMAZON.NoIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Nah",
+                "slots": []
+              },
+              {
+                "text": "Nope",
+                "slots": []
+              },
+              {
+                "text": "No way",
+                "slots": []
+              },
+              {
+                "text": "No thanks",
+                "slots": []
+              },
+              {
+                "text": "Not a chance",
+                "slots": []
+              },
+              {
+                "text": "No can do",
+                "slots": []
+              },
+              {
+                "text": "No chance",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.HelpIntent",
+            "name": "AMAZON.HelpIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "AMAZON.Help"
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.StopIntent",
+            "name": "AMAZON.StopIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "AMAZON.Stop"
+              }
+            ]
+          },
+          {
+            "key": "AMAZON.CancelIntent",
+            "name": "AMAZON.CancelIntent",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "AMAZON.Cancel"
+              }
+            ]
+          },
+          {
+            "key": "id18g3j76",
+            "name": "good_food",
+            "inputs": [
+              {
+                "text": "bowl",
+                "slots": []
+              },
+              {
+                "text": "noodles",
+                "slots": []
+              },
+              {
+                "text": "bowl of noodles",
+                "slots": []
+              },
+              {
+                "text": "A bowl of noodles",
+                "slots": []
+              },
+              {
+                "text": "healthy",
+                "slots": []
+              },
+              {
+                "text": "sandwich",
+                "slots": []
+              },
+              {
+                "text": "healthy sandwich",
+                "slots": []
+              },
+              {
+                "text": "a healthy sandwich",
+                "slots": []
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "zo1ai3jzg",
+            "name": "cotton_candy",
+            "inputs": [
+              {
+                "text": "cotton",
+                "slots": []
+              },
+              {
+                "text": "candy",
+                "slots": []
+              },
+              {
+                "text": "cotton candy",
+                "slots": []
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "slots": [
+          {
+            "key": "pv15h3o01",
+            "name": "entity_one",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#56b365",
+            "inputs": []
+          },
+          {
+            "key": "c41613o3j",
+            "name": "entity_two",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#616769",
+            "inputs": []
+          },
+          {
+            "key": "pjsi3o5l",
+            "name": "capture_username",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#dc8879",
+            "inputs": [
+              "{username}"
+            ]
+          },
+          {
+            "key": "hc26w3opu",
+            "name": "nname",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#616769",
+            "inputs": [
+              "{name}"
+            ]
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          }
+        ]
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "64fb4f637b74118cd02727b4",
+            "storage": {},
+            "variables": {},
+            "diagramID": "64fb4f637b74118cd02727b4"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {
+          "pv15h3o01": {
+            "key": "pv15h3o01",
+            "name": "entity_one",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#56b365",
+            "inputs": []
+          },
+          "c41613o3j": {
+            "key": "c41613o3j",
+            "name": "entity_two",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#616769",
+            "inputs": []
+          },
+          "pjsi3o5l": {
+            "key": "pjsi3o5l",
+            "name": "capture_username",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#dc8879",
+            "inputs": [
+              "{username}"
+            ]
+          },
+          "hc26w3opu": {
+            "key": "hc26w3opu",
+            "name": "nname",
+            "type": {
+              "value": "Custom"
+            },
+            "color": "#616769",
+            "inputs": [
+              "{name}"
+            ]
+          }
+        },
+        "extraSlots": [
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          },
+          {
+            "key": "query_slot",
+            "name": "query_slot",
+            "type": {
+              "value": "AMAZON.SearchQuery"
+            },
+            "inputs": []
+          }
+        ],
+        "extraIntents": [
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "capture_query_intent",
+            "name": "capture_query_intent",
+            "inputs": [],
+            "slots": [
+              {
+                "id": "query_slot",
+                "required": true,
+                "dialog": {
+                  "prompt": [],
+                  "confirmEnabled": false,
+                  "confirm": [],
+                  "utterances": [
+                    {
+                      "text": "{{[slot].query_slot}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "usedIntentsSet": [
+          "AMAZON.HelpIntent",
+          "AMAZON.StopIntent",
+          "AMAZON.CancelIntent",
+          "capture_query_intent",
+          "id18g3j76",
+          "zo1ai3jzg",
+          "AMAZON.YesIntent",
+          "AMAZON.NoIntent"
+        ],
+        "platform": "alexa",
+        "goToIntentsSet": [],
+        "products": {},
+        "interfaces": [],
+        "permissions": [],
+        "usedEventsSet": []
+      },
+      "settings": {},
+      "platform": "alexa"
+    }
+  },
+  "diagrams": {
+    "64fb4f637b74118cd02727b4": {
+      "_id": "64fb4f637b74118cd02727b4",
+      "name": "ROOT",
+      "offsetX": 255.64276761950683,
+      "offsetY": 104,
+      "zoom": 100,
+      "variables": [],
+      "versionID": "64fb4f627b74118cd02727b0",
+      "creatorID": 96493,
+      "modified": 1694191459,
+      "intentStepIDs": [],
+      "type": "TOPIC",
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "5f9f562f11b31520c2a2a6de"
+        }
+      ],
+      "menuNodeIDs": [],
+      "nodes": {
+        "5f9f562f11b31520c2a2a6de": {
+          "nodeID": "5f9f562f11b31520c2a2a6de",
+          "type": "start",
+          "coords": [
+            380.4465404756165,
+            120
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [
+              "5f9f562f11b31520c2a2a6df",
+              "5f9f562f11b31520c2a2a6e0",
+              "5fde6fb05bc1c56319fad3a0"
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3d9fd94f259dc410e9951",
+                  "id": "5fde6fac5bc1c56319fad39b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          445.08,
+                          142
+                        ]
+                      },
+                      {
+                        "point": [
+                          513.81,
+                          142
+                        ]
+                      },
+                      {
+                        "point": [
+                          513.81,
+                          107.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          582.54,
+                          107.35
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6df": {
+          "nodeID": "5f9f562f11b31520c2a2a6df",
+          "type": "command",
+          "data": {
+            "name": "Help",
+            "intent": "AMAZON.HelpIntent",
+            "diagramID": "64fb4f637b74118cd02727b2",
+            "mappings": [],
+            "next": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e0": {
+          "nodeID": "5f9f562f11b31520c2a2a6e0",
+          "type": "command",
+          "data": {
+            "name": "Stop",
+            "intent": "AMAZON.StopIntent",
+            "diagramID": "64fb4f637b74118cd02727b1",
+            "mappings": [],
+            "next": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "5fde6fb05bc1c56319fad3a0": {
+          "nodeID": "5fde6fb05bc1c56319fad3a0",
+          "type": "command",
+          "data": {
+            "name": "Cancel",
+            "intent": "AMAZON.CancelIntent",
+            "diagramID": "64fb4f637b74118cd02727b1",
+            "mappings": [],
+            "next": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "64e3d9fd94f259dc410e994f": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692660255465-smi-1a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3d9fd94f259dc410e9950",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3d9fd94f259dc410e994f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3d9fd94f259dc410e9951": {
+          "type": "block",
+          "data": {
+            "name": "1",
+            "steps": [
+              "64e3d9fd94f259dc410e994f",
+              "64e3da5994f259dc410e9959"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3d9fd94f259dc410e9951",
+          "coords": [
+            747.5417031571978,
+            80.35054269321434
+          ]
+        },
+        "64e3da5994f259dc410e9959": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "name"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e7d46cfc5ed47632920631",
+                  "id": "64e3da5994f259dc410e995a",
+                  "data": {}
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64e3da5994f259dc410e995b"
+                },
+                "no-reply": {
+                  "id": "64e3dd88614aab83d8d9d876",
+                  "type": "no-reply",
+                  "target": null,
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          913.54,
+                          292.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1337.17,
+                          292.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1337.17,
+                          372.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1760.79,
+                          372.1
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "noReply": {
+              "types": [
+                "reprompt"
+              ],
+              "timeout": 10,
+              "pathName": "No reply",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": "Sorry, but you need to say a name or the Sugar Monster will pout and run away."
+                }
+              ]
+            }
+          },
+          "nodeID": "64e3da5994f259dc410e9959",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3db9494f259dc410e9969": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692654492499-smi-2.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3dc0594f259dc410e9980",
+                  "id": "64e3db9494f259dc410e996a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1333.54,
+                          168.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1357.54,
+                          168.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1357.54,
+                          261.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          1173.54,
+                          261.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          1173.54,
+                          354.85
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3db9494f259dc410e9969",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3db9494f259dc410e996b": {
+          "type": "block",
+          "data": {
+            "name": "2A",
+            "steps": [
+              "64e3db9494f259dc410e9969"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3db9494f259dc410e996b",
+          "coords": [
+            1167.5417031571978,
+            78.8505426932143
+          ]
+        },
+        "64e3dbb694f259dc410e9972": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">I heard {name} </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3df0c614aab83d8d9d887",
+                  "id": "64e3dbb694f259dc410e9973",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1339.54,
+                          433.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1371.94,
+                          433.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1371.94,
+                          113.84
+                        ]
+                      },
+                      {
+                        "point": [
+                          1404.35,
+                          113.84
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3dbb694f259dc410e9972",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3dc0594f259dc410e9980": {
+          "type": "block",
+          "data": {
+            "name": "3A",
+            "steps": [
+              "64e3dbb694f259dc410e9972"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3dc0594f259dc410e9980",
+          "coords": [
+            1173.5417031571978,
+            354.8505426932142
+          ]
+        },
+        "64e3df0c614aab83d8d9d885": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655388365-smi-4a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3df0c614aab83d8d9d886",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3df0c614aab83d8d9d885",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3df0c614aab83d8d9d887": {
+          "type": "block",
+          "data": {
+            "name": "4A",
+            "steps": [
+              "64e3df0c614aab83d8d9d885",
+              "64e55128b029685fcb1d8bea",
+              "64e3df9b614aab83d8d9d8a1",
+              "64e3dfdd614aab83d8d9d8aa"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3df0c614aab83d8d9d887",
+          "coords": [
+            1569.3460378609213,
+            86.84407773999814
+          ]
+        },
+        "64e3df9b614aab83d8d9d8a1": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655537045-smi-5.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3df9b614aab83d8d9d8a2"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3df9b614aab83d8d9d8a1",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3dfdd614aab83d8d9d8aa": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "id18g3j76",
+                "mappings": []
+              },
+              {
+                "intent": "zo1ai3jzg",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64e3dfdd614aab83d8d9d8ac"
+                },
+                "no-reply": {
+                  "id": "64e3e0a0614aab83d8d9d8b7",
+                  "type": "no-reply",
+                  "target": "64e3e0b3614aab83d8d9d8bb",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1403.35,
+                          496.09
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1379.35,
+                          496.09
+                        ]
+                      },
+                      {
+                        "point": [
+                          1379.35,
+                          538.4
+                        ]
+                      },
+                      {
+                        "point": [
+                          1561.52,
+                          538.4
+                        ]
+                      },
+                      {
+                        "point": [
+                          1561.52,
+                          562.4
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64e3e11d614aab83d8d9d8c5",
+                  "id": "64e3dfdd614aab83d8d9d8ab",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1735.35,
+                          387.09
+                        ]
+                      },
+                      {
+                        "point": [
+                          1776.37,
+                          387.09
+                        ]
+                      },
+                      {
+                        "point": [
+                          1776.37,
+                          119.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1817.4,
+                          119.35
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "64e3e064614aab83d8d9d8b5",
+                  "type": "",
+                  "target": "64e3e3b5614aab83d8d9d929",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1735.35,
+                          441.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          1970.45,
+                          441.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          1970.45,
+                          113.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          2205.55,
+                          113.19
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "noReply": {
+              "types": [
+                "reprompt",
+                "path"
+              ],
+              "timeout": 10,
+              "pathName": "No reply",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            }
+          },
+          "nodeID": "64e3dfdd614aab83d8d9d8aa"
+        },
+        "64e3e0b3614aab83d8d9d8b9": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655806027-smi-6.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3e11d614aab83d8d9d8c5",
+                  "id": "64e3e0b3614aab83d8d9d8ba",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1727.52,
+                          651.9
+                        ]
+                      },
+                      {
+                        "point": [
+                          1772.46,
+                          651.9
+                        ]
+                      },
+                      {
+                        "point": [
+                          1772.46,
+                          119.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1817.4,
+                          119.35
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e0b3614aab83d8d9d8b9"
+        },
+        "64e3e0b3614aab83d8d9d8bb": {
+          "type": "block",
+          "data": {
+            "name": "6",
+            "steps": [
+              "64e3e0b3614aab83d8d9d8b9"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3e0b3614aab83d8d9d8bb",
+          "coords": [
+            1561.5170172040475,
+            562.3958790094754
+          ]
+        },
+        "64e3e11d614aab83d8d9d8c3": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655921250-smi-7.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e11d614aab83d8d9d8c4",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3223.04,
+                          179.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          3247.04,
+                          179.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          3247.04,
+                          252.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          3058.29,
+                          252.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          3058.29,
+                          286.35
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e11d614aab83d8d9d8c3",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3e11d614aab83d8d9d8c5": {
+          "type": "block",
+          "data": {
+            "name": "7 Strike One",
+            "steps": [
+              "64e3e11d614aab83d8d9d8c3",
+              "64e3e2fa614aab83d8d9d912"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3e11d614aab83d8d9d8c5",
+          "coords": [
+            1982.3990733967453,
+            92.34874903162523
+          ]
+        },
+        "64e3e156614aab83d8d9d8cc": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655971639-smi-8a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e156614aab83d8d9d8cd",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2890.09,
+                          557.24
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          2866.09,
+                          557.24
+                        ]
+                      },
+                      {
+                        "point": [
+                          2866.09,
+                          629.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          3051.4,
+                          629.74
+                        ]
+                      },
+                      {
+                        "point": [
+                          3051.4,
+                          675.72
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e156614aab83d8d9d8cc",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3e156614aab83d8d9d8ce": {
+          "type": "block",
+          "data": {
+            "name": "8A Strike Two",
+            "steps": [
+              "64e3e156614aab83d8d9d8cc",
+              "64e3e183614aab83d8d9d8d5",
+              "64e3e1a2614aab83d8d9d8de",
+              "64e3e1bd614aab83d8d9d8e7",
+              "64e3e1fb614aab83d8d9d8f0",
+              "64e3e224614aab83d8d9d8f9"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3e156614aab83d8d9d8ce",
+          "coords": [
+            1981.451582568151,
+            470.9904878049296
+          ]
+        },
+        "64e3e183614aab83d8d9d8d5": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">The number of callers who have chosen “cotton candy” is … zero.</prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e183614aab83d8d9d8d6",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3217.4,
+                          766.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          3241.4,
+                          766.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          3241.4,
+                          841.22
+                        ]
+                      },
+                      {
+                        "point": [
+                          3052.65,
+                          841.22
+                        ]
+                      },
+                      {
+                        "point": [
+                          3052.65,
+                          876.97
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e183614aab83d8d9d8d5"
+        },
+        "64e3e1a2614aab83d8d9d8de": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692656047256-smi-10a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e1a2614aab83d8d9d8df",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3218.65,
+                          966.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          3242.65,
+                          966.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          3242.65,
+                          1039.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          3052.65,
+                          1039.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          3052.65,
+                          1065.72
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e1a2614aab83d8d9d8de"
+        },
+        "64e3e1bd614aab83d8d9d8e7": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": " <emphasis level=\"reduced\"><prosody volume=\"soft\">Zero callers, Sugar Monster</prosody>.</emphasis>  "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e1bd614aab83d8d9d8e8",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3218.65,
+                          1145.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          3242.65,
+                          1145.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          3242.65,
+                          1208.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          3053.9,
+                          1208.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          3053.9,
+                          1246.97
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e1bd614aab83d8d9d8e7"
+        },
+        "64e3e1fb614aab83d8d9d8f0": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692656143093-smi-12a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e1fb614aab83d8d9d8f1",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2887.9,
+                          1335.47
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          2863.9,
+                          1335.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          2863.9,
+                          1407.97
+                        ]
+                      },
+                      {
+                        "point": [
+                          3047.65,
+                          1407.97
+                        ]
+                      },
+                      {
+                        "point": [
+                          3047.65,
+                          1469.47
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e1fb614aab83d8d9d8f0",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3e224614aab83d8d9d8f9": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">Great job, {{[name].name}}! Thanks for making the Sugar Monster explode ... Call again soon. </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3e26f614aab83d8d9d904",
+                  "id": "64e3e224614aab83d8d9d8fa",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2147.45,
+                          967.99
+                        ]
+                      },
+                      {
+                        "point": [
+                          2270.61,
+                          967.99
+                        ]
+                      },
+                      {
+                        "point": [
+                          2270.61,
+                          1519.98
+                        ]
+                      },
+                      {
+                        "point": [
+                          2393.78,
+                          1519.98
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e224614aab83d8d9d8f9",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3e26f614aab83d8d9d903": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e26f614aab83d8d9d903"
+        },
+        "64e3e26f614aab83d8d9d904": {
+          "type": "block",
+          "data": {
+            "name": "End",
+            "steps": [
+              "64e3e26f614aab83d8d9d903"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3e26f614aab83d8d9d904",
+          "coords": [
+            2558.776285073735,
+            1492.9763335745674
+          ]
+        },
+        "64e3e2fa614aab83d8d9d912": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "id18g3j76",
+                "mappings": []
+              },
+              {
+                "intent": "zo1ai3jzg",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": {
+              "types": [
+                "reprompt",
+                "path"
+              ],
+              "timeout": 10,
+              "pathName": "No reply",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            },
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64e3e2fa614aab83d8d9d913"
+                },
+                "no-reply": {
+                  "type": "no-reply",
+                  "target": "64e3e477614aab83d8d9d976",
+                  "id": "64e3e2fa614aab83d8d9d914",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2148.4,
+                          361.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          2175.99,
+                          361.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          2175.99,
+                          916.23
+                        ]
+                      },
+                      {
+                        "point": [
+                          2203.59,
+                          916.23
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64e3e156614aab83d8d9d8ce",
+                  "id": "64e3e2fa614aab83d8d9d915",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1816.4,
+                          252.1
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1792.4,
+                          252.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1792.4,
+                          424.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1981.45,
+                          424.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1981.45,
+                          470.99
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "64e3e3b5614aab83d8d9d929",
+                  "id": "64e3e2fa614aab83d8d9d916",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2148.4,
+                          306.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          2176.97,
+                          306.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          2176.97,
+                          113.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          2205.55,
+                          113.19
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "64e3e2fa614aab83d8d9d912"
+        },
+        "64e3e3b5614aab83d8d9d927": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1694047599681-smi-8ba.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e3b5614aab83d8d9d928",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e3b5614aab83d8d9d927",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3e3b5614aab83d8d9d929": {
+          "type": "block",
+          "data": {
+            "name": "8Ba Cotton Candy",
+            "steps": [
+              "64e3e3b5614aab83d8d9d927",
+              "64e3e3dd614aab83d8d9d933",
+              "64e3e3f6614aab83d8d9d93d",
+              "64e3e418614aab83d8d9d949",
+              "64e3e42c614aab83d8d9d953",
+              "64f91e2a9fac9074db64d954",
+              "64f91e5e9fac9074db64d961",
+              "64e3e44f614aab83d8d9d95f"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3e3b5614aab83d8d9d929",
+          "coords": [
+            2370.5510126702816,
+            86.19410942225937
+          ]
+        },
+        "64e3e3dd614aab83d8d9d933": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">The number of callers who've chosen “cotton candy” is … zero.</prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e3dd614aab83d8d9d934",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e3dd614aab83d8d9d933"
+        },
+        "64e3e3f6614aab83d8d9d93d": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1694047667148-smi-10ba.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e3f6614aab83d8d9d93e",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3673.36,
+                          963.84
+                        ]
+                      },
+                      {
+                        "point": [
+                          3697.36,
+                          963.84
+                        ]
+                      },
+                      {
+                        "point": [
+                          3697.36,
+                          1034.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          3508.92,
+                          1034.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          3508.92,
+                          1058.21
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e3f6614aab83d8d9d93d"
+        },
+        "64e3e418614aab83d8d9d949": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody pitch=\"low\"> <emphasis level=\"reduced\"><prosody volume=\"soft\">Come on Sugar Monster ... {name} is just tricking you.</prosody></emphasis> </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e418614aab83d8d9d94a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3674.92,
+                          1137.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          3698.92,
+                          1137.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          3698.92,
+                          1201.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          3514.08,
+                          1201.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          3514.08,
+                          1248.09
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e418614aab83d8d9d949"
+        },
+        "64e3e42c614aab83d8d9d953": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1694047775375-smi-12ba.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e42c614aab83d8d9d954",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3680.08,
+                          1336.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          3704.08,
+                          1336.59
+                        ]
+                      },
+                      {
+                        "point": [
+                          3704.08,
+                          1409.09
+                        ]
+                      },
+                      {
+                        "point": [
+                          3514.44,
+                          1409.09
+                        ]
+                      },
+                      {
+                        "point": [
+                          3514.44,
+                          1475.22
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e42c614aab83d8d9d953",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e3e44f614aab83d8d9d95f": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">Great job, {{[name].name}}! Thanks for making the Sugar Monster explode ... Call again soon.</prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3e26f614aab83d8d9d904",
+                  "id": "64e3e44f614aab83d8d9d960",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2536.55,
+                          768.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          2560.55,
+                          768.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          2560.55,
+                          1130.83
+                        ]
+                      },
+                      {
+                        "point": [
+                          2558.78,
+                          1130.83
+                        ]
+                      },
+                      {
+                        "point": [
+                          2558.78,
+                          1492.98
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e44f614aab83d8d9d95f"
+        },
+        "64e3e459614aab83d8d9d969": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Great job, {{[name].name}}! Thanks for making the Sugar Monster explode ... Call again soon."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64e3e26f614aab83d8d9d904",
+                  "id": "64e3e459614aab83d8d9d96a",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e459614aab83d8d9d969"
+        },
+        "64e3e477614aab83d8d9d974": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692656772971-smi-8c.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e477614aab83d8d9d975"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e477614aab83d8d9d974"
+        },
+        "64e3e477614aab83d8d9d976": {
+          "type": "block",
+          "data": {
+            "name": "8C No Choice",
+            "steps": [
+              "64e3e477614aab83d8d9d974",
+              "64e3e49a614aab83d8d9d980",
+              "64e3e4bc614aab83d8d9d98a",
+              "64e3e4e0614aab83d8d9d998",
+              "64e3e4e0614aab83d8d9d99b",
+              "64e3e459614aab83d8d9d969"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e3e477614aab83d8d9d976",
+          "coords": [
+            2368.590155599208,
+            889.2306120592286
+          ]
+        },
+        "64e3e49a614aab83d8d9d980": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "The number of other callers who have chosen “cotton candy” is … zero."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e49a614aab83d8d9d981",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e49a614aab83d8d9d980"
+        },
+        "64e3e4bc614aab83d8d9d98a": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692656845246-smi-10c.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e4bc614aab83d8d9d98b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4148.28,
+                          716.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          4182.01,
+                          716.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          4182.01,
+                          767.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          4158.01,
+                          767.2
+                        ],
+                        "reversed": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e4bc614aab83d8d9d98a"
+        },
+        "64e3e4e0614aab83d8d9d998": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody pitch=\"low\"> <emphasis level=\"reduced\">Zero callers, Sugar Monster.</emphasis> </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e4e0614aab83d8d9d999",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3827.01,
+                          819.2
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          3803.01,
+                          819.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          3803.01,
+                          1032.14
+                        ]
+                      },
+                      {
+                        "point": [
+                          3991.93,
+                          1032.14
+                        ]
+                      },
+                      {
+                        "point": [
+                          3991.93,
+                          1245.08
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e4e0614aab83d8d9d998"
+        },
+        "64e3e4e0614aab83d8d9d99b": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692656702873-smi-12b.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e3e4e0614aab83d8d9d99c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3816.28,
+                          917.44
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          3785.86,
+                          917.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          3785.86,
+                          932.95
+                        ]
+                      },
+                      {
+                        "point": [
+                          3809.86,
+                          932.95
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e3e4e0614aab83d8d9d99b"
+        },
+        "64e55128b029685fcb1d8bea": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">{name} </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e55128b029685fcb1d8beb",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e55128b029685fcb1d8bea"
+        },
+        "64e7d428fc5ed47632920613": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1693108024083-smi-4g1.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64e7d428fc5ed47632920614",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64e7d428fc5ed47632920613",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e7d46cfc5ed4763292062e": {
+          "type": "ifV2",
+          "data": {
+            "name": "If",
+            "expressions": [
+              {
+                "type": "or",
+                "name": "Gavin",
+                "value": [
+                  {
+                    "id": "1w1za3mj7",
+                    "logicInterface": "value",
+                    "type": "equals",
+                    "value": [
+                      {
+                        "type": "variable",
+                        "value": "{{[name].name}}"
+                      },
+                      {
+                        "type": "value",
+                        "value": "Gavin"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": null,
+                "name": "Daphne",
+                "value": [
+                  {
+                    "id": "r620v3maa",
+                    "logicInterface": "value",
+                    "type": "equals",
+                    "value": [
+                      {
+                        "type": "variable",
+                        "value": "{{[name].name}}"
+                      },
+                      {
+                        "type": "value",
+                        "value": "Daphne"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "noMatch": {
+              "type": "path",
+              "pathName": "Else"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "id": "64e7d4cefc5ed4763292064c",
+                  "type": "else",
+                  "target": "64e3db9494f259dc410e996b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          927.05,
+                          630.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          964.79,
+                          630.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          964.79,
+                          105.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1002.54,
+                          105.85
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64eac75e8910d1b46cb3a98c",
+                  "id": "64e7d46cfc5ed4763292062f",
+                  "data": {}
+                },
+                {
+                  "id": "64e7fb7ffc5ed4763292083e",
+                  "type": "",
+                  "target": "64eac9d48910d1b46cb3aa17",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "64e7d46cfc5ed4763292062e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64e7d46cfc5ed47632920631": {
+          "type": "block",
+          "data": {
+            "name": "1A",
+            "steps": [
+              "64e7d46cfc5ed4763292062e"
+            ],
+            "color": ""
+          },
+          "nodeID": "64e7d46cfc5ed47632920631",
+          "coords": [
+            761.0471080692023,
+            441.5503095254148
+          ]
+        },
+        "64eac7578910d1b46cb3a984": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "AMAZON.YesIntent",
+                "mappings": []
+              },
+              {
+                "intent": "AMAZON.NoIntent",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "id": "64eac9168910d1b46cb3a9e8",
+                  "type": "else",
+                  "target": "64eac8028910d1b46cb3a9a1",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1620.21,
+                          980.25
+                        ]
+                      },
+                      {
+                        "point": [
+                          1730.21,
+                          980.25
+                        ]
+                      },
+                      {
+                        "point": [
+                          1730.21,
+                          1053.25
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64eac8028910d1b46cb3a9a1",
+                  "id": "64eac7578910d1b46cb3a985",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1620.21,
+                          872
+                        ]
+                      },
+                      {
+                        "point": [
+                          1730.21,
+                          872
+                        ]
+                      },
+                      {
+                        "point": [
+                          1730.21,
+                          1053.25
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "64eac7918910d1b46cb3a996",
+                  "type": "",
+                  "target": "64eac8028910d1b46cb3a9a1",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1620.21,
+                          926.25
+                        ]
+                      },
+                      {
+                        "point": [
+                          1730.21,
+                          926.25
+                        ]
+                      },
+                      {
+                        "point": [
+                          1730.21,
+                          1053.25
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "noMatch": {
+              "types": [
+                "reprompt",
+                "path"
+              ],
+              "pathName": "No match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            }
+          },
+          "nodeID": "64eac7578910d1b46cb3a984"
+        },
+        "64eac75e8910d1b46cb3a98c": {
+          "type": "block",
+          "data": {
+            "name": "4G1 Gavin",
+            "steps": [
+              "64e7d428fc5ed47632920613",
+              "64eac7578910d1b46cb3a984"
+            ],
+            "color": ""
+          },
+          "nodeID": "64eac75e8910d1b46cb3a98c",
+          "coords": [
+            1454.2122984085513,
+            714.75
+          ]
+        },
+        "64eac7ad8910d1b46cb3a998": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1693277132251-smi-4g2a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac7ad8910d1b46cb3a999"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac7ad8910d1b46cb3a998",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64eac8028910d1b46cb3a9a1": {
+          "type": "block",
+          "data": {
+            "name": "4G2 Gavin",
+            "color": "",
+            "steps": [
+              "64eac7ad8910d1b46cb3a998",
+              "64eac8028910d1b46cb3a9a3",
+              "64eac8028910d1b46cb3a9a6",
+              "64eac8028910d1b46cb3a9a9"
+            ]
+          },
+          "nodeID": "64eac8028910d1b46cb3a9a1",
+          "coords": [
+            1730.2122984085513,
+            1053.25
+          ]
+        },
+        "64eac8028910d1b46cb3a9a3": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">{name} </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac8028910d1b46cb3a9a4",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac8028910d1b46cb3a9a3"
+        },
+        "64eac8028910d1b46cb3a9a6": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655537045-smi-5.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac8028910d1b46cb3a9a7"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac8028910d1b46cb3a9a6"
+        },
+        "64eac8028910d1b46cb3a9a9": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "id18g3j76",
+                "mappings": []
+              },
+              {
+                "intent": "zo1ai3jzg",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": {
+              "types": [
+                "reprompt",
+                "path"
+              ],
+              "timeout": 10,
+              "pathName": "No reply",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            },
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64eac8028910d1b46cb3a9aa"
+                },
+                "no-reply": {
+                  "type": "no-reply",
+                  "target": "64e3e0b3614aab83d8d9d8bb",
+                  "id": "64eac8028910d1b46cb3a9ab",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1564.21,
+                          1456.75
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1372.52,
+                          1456.75
+                        ]
+                      },
+                      {
+                        "point": [
+                          1372.52,
+                          589.4
+                        ]
+                      },
+                      {
+                        "point": [
+                          1396.52,
+                          589.4
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64e3e11d614aab83d8d9d8c5",
+                  "id": "64eac8028910d1b46cb3a9ac",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1896.21,
+                          1348.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          1920.21,
+                          1348.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          1920.21,
+                          733.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          1793.4,
+                          733.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          1793.4,
+                          119.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1817.4,
+                          119.35
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "64e3e3b5614aab83d8d9d929",
+                  "id": "64eac8028910d1b46cb3a9ad",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1896.21,
+                          1402.75
+                        ]
+                      },
+                      {
+                        "point": [
+                          2050.88,
+                          1402.75
+                        ]
+                      },
+                      {
+                        "point": [
+                          2050.88,
+                          113.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          2205.55,
+                          113.19
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "64eac8028910d1b46cb3a9a9"
+        },
+        "64eac9d48910d1b46cb3aa17": {
+          "type": "block",
+          "data": {
+            "name": "4D1 Daphne",
+            "color": "",
+            "steps": [
+              "64eac9d48910d1b46cb3aa21",
+              "64eac9d48910d1b46cb3aa24"
+            ]
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa17",
+          "coords": [
+            1000.7122984085513,
+            694.3750000000001
+          ]
+        },
+        "64eac9d48910d1b46cb3aa19": {
+          "type": "block",
+          "data": {
+            "name": "4D2 Daphne",
+            "color": "",
+            "steps": [
+              "64eac9d48910d1b46cb3aa29",
+              "64eac9d48910d1b46cb3aa2c",
+              "64eac9d48910d1b46cb3aa2f",
+              "64eac9d48910d1b46cb3aa32"
+            ]
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa19",
+          "coords": [
+            1214.2122984085513,
+            1111.625
+          ]
+        },
+        "64eac9d48910d1b46cb3aa21": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1693108791591-smi-4d1.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac9d48910d1b46cb3aa22",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa21",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64eac9d48910d1b46cb3aa24": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "AMAZON.YesIntent",
+                "mappings": []
+              },
+              {
+                "intent": "AMAZON.NoIntent",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": {
+              "types": [
+                "reprompt",
+                "path"
+              ],
+              "pathName": "No match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            },
+            "noReply": null,
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": "64eac9d48910d1b46cb3aa19",
+                  "id": "64eac9d48910d1b46cb3aa25",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1166.71,
+                          959.88
+                        ]
+                      },
+                      {
+                        "point": [
+                          1214.21,
+                          959.88
+                        ]
+                      },
+                      {
+                        "point": [
+                          1214.21,
+                          1111.63
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64eac9d48910d1b46cb3aa19",
+                  "id": "64eac9d48910d1b46cb3aa26",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1166.71,
+                          851.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          1214.21,
+                          851.63
+                        ]
+                      },
+                      {
+                        "point": [
+                          1214.21,
+                          1111.63
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "64eac9d48910d1b46cb3aa19",
+                  "id": "64eac9d48910d1b46cb3aa27",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1166.71,
+                          905.88
+                        ]
+                      },
+                      {
+                        "point": [
+                          1214.21,
+                          905.88
+                        ]
+                      },
+                      {
+                        "point": [
+                          1214.21,
+                          1111.63
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa24"
+        },
+        "64eac9d48910d1b46cb3aa29": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1693277169092-smi-4g2a.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac9d48910d1b46cb3aa2a"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa29",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64eac9d48910d1b46cb3aa2c": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody volume=\"soft\">{name} </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac9d48910d1b46cb3aa2d",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa2c"
+        },
+        "64eac9d48910d1b46cb3aa2f": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1692655537045-smi-5.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64eac9d48910d1b46cb3aa30"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa2f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64eac9d48910d1b46cb3aa32": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "id18g3j76",
+                "mappings": []
+              },
+              {
+                "intent": "zo1ai3jzg",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": {
+              "types": [
+                "reprompt",
+                "path"
+              ],
+              "timeout": 10,
+              "pathName": "No reply",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": ""
+                }
+              ]
+            },
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64eac9d48910d1b46cb3aa33"
+                },
+                "no-reply": {
+                  "type": "no-reply",
+                  "target": "64e3e0b3614aab83d8d9d8bb",
+                  "id": "64eac9d48910d1b46cb3aa34",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1380.21,
+                          1515.13
+                        ]
+                      },
+                      {
+                        "point": [
+                          1404.21,
+                          1515.13
+                        ]
+                      },
+                      {
+                        "point": [
+                          1404.21,
+                          1052.26
+                        ]
+                      },
+                      {
+                        "point": [
+                          1372.52,
+                          1052.26
+                        ]
+                      },
+                      {
+                        "point": [
+                          1372.52,
+                          589.4
+                        ]
+                      },
+                      {
+                        "point": [
+                          1396.52,
+                          589.4
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64e3e11d614aab83d8d9d8c5",
+                  "id": "64eac9d48910d1b46cb3aa35",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1380.21,
+                          1406.88
+                        ]
+                      },
+                      {
+                        "point": [
+                          1598.81,
+                          1406.88
+                        ]
+                      },
+                      {
+                        "point": [
+                          1598.81,
+                          119.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1817.4,
+                          119.35
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "64e3e3b5614aab83d8d9d929",
+                  "id": "64eac9d48910d1b46cb3aa36",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1380.21,
+                          1461.13
+                        ]
+                      },
+                      {
+                        "point": [
+                          1792.88,
+                          1461.13
+                        ]
+                      },
+                      {
+                        "point": [
+                          1792.88,
+                          113.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          2205.55,
+                          113.19
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "64eac9d48910d1b46cb3aa32"
+        },
+        "64f91e2a9fac9074db64d954": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "<prosody pitch=\"low\"> <emphasis level=\"reduced\"><prosody volume=\"soft\">Of course ... No one really thinks cotton candy is a good lunch.</prosody></emphasis> </prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64f91e2a9fac9074db64d955",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4063.578886672059,
+                          1840.49906658431
+                        ]
+                      },
+                      {
+                        "point": [
+                          4087.578886672059,
+                          1840.49906658431
+                        ]
+                      },
+                      {
+                        "point": [
+                          4087.578886672059,
+                          1903.74906658431
+                        ]
+                      },
+                      {
+                        "point": [
+                          3902.738886672059,
+                          1903.74906658431
+                        ]
+                      },
+                      {
+                        "point": [
+                          3902.738886672059,
+                          1950.6290665843098
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64f91e2a9fac9074db64d954"
+        },
+        "64f91e5e9fac9074db64d961": {
+          "type": "speak",
+          "data": {
+            "name": "Audio",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "audio",
+                "content": "https://cm4-production-assets.s3.amazonaws.com/1694047846577-smi-14ba.mp3"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64f91e5e9fac9074db64d962"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64f91e5e9fac9074db64d961"
+        }
+      },
+      "diagramID": "64fb4f637b74118cd02727b4"
+    },
+    "64fb4f637b74118cd02727b3": {
+      "_id": "64fb4f637b74118cd02727b3",
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "offsetX": 272,
+      "offsetY": 104,
+      "modified": 1694191459,
+      "variables": [],
+      "menuItems": [],
+      "creatorID": 96493,
+      "versionID": "64fb4f627b74118cd02727b0",
+      "nodes": {
+        "643876b3debc3100071dd9bc": {
+          "type": "start",
+          "nodeID": "643876b3debc3100071dd9bc",
+          "coords": [
+            360,
+            120
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "id": "643876b3debc3100071dd9bd",
+                  "type": "next",
+                  "target": null
+                }
+              },
+              "dynamic": []
+            },
+            "steps": []
+          }
+        },
+        "643876b382cf9d2273b90c05": {
+          "type": "block",
+          "data": {
+            "name": "No",
+            "color": "#5b9fd7",
+            "steps": [
+              "643876b382cf9d2273b90c0b"
+            ]
+          },
+          "nodeID": "643876b382cf9d2273b90c05",
+          "coords": [
+            -157.84268621880426,
+            -9.976554252012406
+          ]
+        },
+        "643876b382cf9d2273b90c07": {
+          "type": "block",
+          "data": {
+            "name": "Starting Block",
+            "color": "#5b9fd7",
+            "steps": [
+              "643876b382cf9d2273b90c0e",
+              "643876b382cf9d2273b90c11"
+            ]
+          },
+          "nodeID": "643876b382cf9d2273b90c07",
+          "coords": [
+            -573.3914098729462,
+            -197.6197509325292
+          ]
+        },
+        "643876b382cf9d2273b90c09": {
+          "type": "block",
+          "data": {
+            "name": "Yes",
+            "color": "#5b9fd7",
+            "steps": [
+              "643876b382cf9d2273b90c16"
+            ]
+          },
+          "nodeID": "643876b382cf9d2273b90c09",
+          "coords": [
+            -155.34268621880426,
+            -197.47655425201253
+          ]
+        },
+        "643876b382cf9d2273b90c0b": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "No Problem!"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643876b382cf9d2273b90c0c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876b382cf9d2273b90c0b"
+        },
+        "643876b382cf9d2273b90c0e": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Can I help you?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643876b382cf9d2273b90c11",
+                  "id": "643876b382cf9d2273b90c0f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876b382cf9d2273b90c0e"
+        },
+        "643876b382cf9d2273b90c11": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "AMAZON.YesIntent",
+                "mappings": []
+              },
+              {
+                "intent": "AMAZON.NoIntent",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "643876b382cf9d2273b90c12"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "643876b382cf9d2273b90c09",
+                  "id": "643876b382cf9d2273b90c13",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -407.3914442522115,
+                          -57.369990891813345
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -363.8670301897115,
+                          -57.369990891813345
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -363.8670301897115,
+                          -170.47672612130555
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -320.3426161272115,
+                          -170.47672612130555
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "643876b382cf9d2273b90c05",
+                  "id": "643876b382cf9d2273b90c14",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -407.3914442522115,
+                          -2.869945115446157
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -365.1170301897115,
+                          -2.869945115446157
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -365.1170301897115,
+                          17.02342646658498
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -322.8426161272115,
+                          17.02342646658498
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "643876b382cf9d2273b90c11"
+        },
+        "643876b382cf9d2273b90c16": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Okay!"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643876b382cf9d2273b90c17"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876b382cf9d2273b90c16"
+        },
+        "643876c382cf9d2273b90c1b": {
+          "type": "block",
+          "data": {
+            "name": "ChatGPT response",
+            "color": "#56b365",
+            "steps": [
+              "643876c382cf9d2273b90c1f"
+            ]
+          },
+          "nodeID": "643876c382cf9d2273b90c1b",
+          "coords": [
+            -149.35669942778645,
+            -189.9087326746289
+          ]
+        },
+        "643876c382cf9d2273b90c1d": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "#5b9fd7",
+            "steps": [
+              "643876c382cf9d2273b90c22",
+              "643876c382cf9d2273b90c25"
+            ]
+          },
+          "nodeID": "643876c382cf9d2273b90c1d",
+          "coords": [
+            -579.3773966639639,
+            -187.1876833440497
+          ]
+        },
+        "643876c382cf9d2273b90c1f": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "prompt": "Based on the users response {{[userQuestion].userQuestion}}, respond to the user",
+            "system": "You are a helpful assistant",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643876c382cf9d2273b90c20",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          16.643294254004786,
+                          -87.65879845635443
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          40.643294254004786,
+                          -87.65879845635443
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          40.643294254004786,
+                          -1.9088442327215915
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -144.12739666396374,
+                          -1.9088442327215915
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -144.12739666396374,
+                          26.562316655950227
+                        ],
+                        "toTop": true,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876c382cf9d2273b90c1f"
+        },
+        "643876c382cf9d2273b90c22": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Ask any question, and we'll use the response AI step to provide a contextual response."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643876c382cf9d2273b90c25",
+                  "id": "643876c382cf9d2273b90c23"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876c382cf9d2273b90c22"
+        },
+        "643876c382cf9d2273b90c25": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "userQuestion"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643876c382cf9d2273b90c1b",
+                  "id": "643876c382cf9d2273b90c26",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -413.3774576991201,
+                          9.312408208684658
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -363.867173275292,
+                          9.312408208684658
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -363.867173275292,
+                          -162.90878319756536
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -314.35688885146385,
+                          -162.90878319756536
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "643876c382cf9d2273b90c27"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876c382cf9d2273b90c25"
+        },
+        "643876d282cf9d2273b90c46": {
+          "type": "block",
+          "data": {
+            "name": "ChatGPT response",
+            "color": "#56b365",
+            "steps": [
+              "643876d282cf9d2273b90c4a"
+            ]
+          },
+          "nodeID": "643876d282cf9d2273b90c46",
+          "coords": [
+            -149.35669942778645,
+            -189.9085927174724
+          ]
+        },
+        "643876d282cf9d2273b90c48": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "#56b365",
+            "steps": [
+              "643876d282cf9d2273b90c4d",
+              "643876d282cf9d2273b90c50"
+            ]
+          },
+          "nodeID": "643876d282cf9d2273b90c48",
+          "coords": [
+            -579.377396663964,
+            -187.18754338689314
+          ]
+        },
+        "643876d282cf9d2273b90c4a": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "prompt": "Based on the users response {{[userQuestion].userQuestion}}, respond to the user",
+            "system": "You are a helpful assistant",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643876d282cf9d2273b90c4b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          16.643294254004786,
+                          -87.65865849919793
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          40.643294254004786,
+                          -87.65865849919793
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          40.643294254004786,
+                          -1.9087042755650003
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -144.12739666396374,
+                          -1.9087042755650003
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -144.12739666396374,
+                          26.56245661310676
+                        ],
+                        "toTop": true,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876d282cf9d2273b90c4a"
+        },
+        "643876d282cf9d2273b90c4d": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Ask any question, and we'll use the response AI step to provide a contextual response."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643876d282cf9d2273b90c50",
+                  "id": "643876d282cf9d2273b90c4e"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876d282cf9d2273b90c4d"
+        },
+        "643876d282cf9d2273b90c50": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "userQuestion"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643876d282cf9d2273b90c46",
+                  "id": "643876d282cf9d2273b90c51",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -413.3773935048596,
+                          9.312268251528181
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -363.86695649314083,
+                          9.312268251528181
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -363.86695649314083,
+                          -162.90861797894047
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -314.3565194814221,
+                          -162.90861797894047
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "643876d282cf9d2273b90c52"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643876d282cf9d2273b90c50"
+        },
+        "643877b082cf9d2273b90c81": {
+          "type": "block",
+          "data": {
+            "name": "Use Logic",
+            "color": "",
+            "steps": [
+              "643877b082cf9d2273b90c89"
+            ]
+          },
+          "nodeID": "643877b082cf9d2273b90c81",
+          "coords": [
+            -433.4965069860771,
+            -266.0753107608295
+          ]
+        },
+        "643877b082cf9d2273b90c83": {
+          "type": "block",
+          "data": {
+            "name": "Everyone Else",
+            "color": "",
+            "steps": [
+              "643877b082cf9d2273b90c8d"
+            ]
+          },
+          "nodeID": "643877b082cf9d2273b90c83",
+          "coords": [
+            -14.090233934529977,
+            -101.64613215679918
+          ]
+        },
+        "643877b082cf9d2273b90c85": {
+          "type": "block",
+          "data": {
+            "name": "Elon Musk",
+            "color": "",
+            "steps": [
+              "643877b082cf9d2273b90c90"
+            ]
+          },
+          "nodeID": "643877b082cf9d2273b90c85",
+          "coords": [
+            -15.53646246229431,
+            -298.33321193269694
+          ]
+        },
+        "643877b082cf9d2273b90c87": {
+          "type": "block",
+          "data": {
+            "name": "Capture Name",
+            "color": "",
+            "steps": [
+              "643877b082cf9d2273b90c93",
+              "643877b082cf9d2273b90c96"
+            ]
+          },
+          "nodeID": "643877b082cf9d2273b90c87",
+          "coords": [
+            -834.1018091766931,
+            -266.5161843218899
+          ]
+        },
+        "643877b082cf9d2273b90c89": {
+          "type": "ifV2",
+          "data": {
+            "name": "If",
+            "expressions": [
+              {
+                "type": null,
+                "name": "If name is elon musk",
+                "value": [
+                  {
+                    "logicInterface": "variable",
+                    "type": "equals",
+                    "value": [
+                      {
+                        "type": "variable",
+                        "value": "name"
+                      },
+                      {
+                        "type": "value",
+                        "value": "elon musk"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "noMatch": {
+              "type": "path",
+              "pathName": "All other names"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": "643877b082cf9d2273b90c83",
+                  "id": "643877b082cf9d2273b90c8a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -267.4966753073665,
+                          -131.8251713272519
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -223.29352495240727,
+                          -131.8251713272519
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -223.29352495240727,
+                          -74.6462157701381
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -179.09037459744803,
+                          -74.6462157701381
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "643877b082cf9d2273b90c85",
+                  "id": "643877b082cf9d2273b90c8b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -267.4966753073665,
+                          -186.32515420309852
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -224.01665348630235,
+                          -186.32515420309852
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -224.01665348630235,
+                          -271.33309981026406
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -180.53663166523842,
+                          -271.33309981026406
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ],
+                    "event": {
+                      "type": "If name is elon musk"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "643877b082cf9d2273b90c89"
+        },
+        "643877b082cf9d2273b90c8d": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Hello {{[name].name}} !"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643877b082cf9d2273b90c8e"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643877b082cf9d2273b90c8d"
+        },
+        "643877b082cf9d2273b90c90": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Twitter is the best 🐦"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643877b082cf9d2273b90c91"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643877b082cf9d2273b90c90"
+        },
+        "643877b082cf9d2273b90c93": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "What is your name?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643877b082cf9d2273b90c96",
+                  "id": "643877b082cf9d2273b90c94"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643877b082cf9d2273b90c93"
+        },
+        "643877b082cf9d2273b90c96": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "name"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "643877b082cf9d2273b90c81",
+                  "id": "643877b082cf9d2273b90c97",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -668.1018918137456,
+                          -126.26626342421065
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -633.2992493122492,
+                          -126.26626342421065
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -633.2992493122492,
+                          -239.07510894640768
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -598.4966068107528,
+                          -239.07510894640768
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "643877b082cf9d2273b90c98"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "643877b082cf9d2273b90c96"
+        },
+        "644055b748058fc0549f71a0": {
+          "type": "block",
+          "data": {
+            "name": "Response",
+            "color": "",
+            "steps": [
+              "644055b748058fc0549f71a6",
+              "644055b748058fc0549f71a9",
+              "644055b748058fc0549f71ac"
+            ]
+          },
+          "nodeID": "644055b748058fc0549f71a0",
+          "coords": [
+            -179.65609384784068,
+            -656.0516714586684
+          ]
+        },
+        "644055b748058fc0549f71a2": {
+          "type": "block",
+          "data": {
+            "name": "ChatGPT API Call",
+            "color": "#56b365",
+            "steps": [
+              "644055b748058fc0549f71b1"
+            ]
+          },
+          "nodeID": "644055b748058fc0549f71a2",
+          "coords": [
+            -579.7291293941392,
+            -656.8043389370152
+          ]
+        },
+        "644055b748058fc0549f71a4": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "#A1ADBA",
+            "steps": [
+              "644055b748058fc0549f71b5",
+              "644055b748058fc0549f71b8"
+            ]
+          },
+          "nodeID": "644055b748058fc0549f71a4",
+          "coords": [
+            -1010.9078218793125,
+            -656.3992801044291
+          ]
+        },
+        "644055b748058fc0549f71a6": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "{{[response].response}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "644055b748058fc0549f71a9",
+                  "id": "644055b748058fc0549f71a7"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "644055b748058fc0549f71a6"
+        },
+        "644055b748058fc0549f71a9": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "What else can I help with?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "644055b748058fc0549f71ac",
+                  "id": "644055b748058fc0549f71aa"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "644055b748058fc0549f71a9"
+        },
+        "644055b748058fc0549f71ac": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "",
+                "mappings": []
+              },
+              {
+                "intent": "",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": null,
+            "noReply": null,
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "644055b748058fc0549f71ad"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "644055b748058fc0549f71ae"
+                },
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "644055b748058fc0549f71af"
+                }
+              ]
+            }
+          },
+          "nodeID": "644055b748058fc0549f71ac"
+        },
+        "644055b748058fc0549f71b1": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.openai.com/v1/completions",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "val": "Bearer $OPENAI_API_KEY"
+              }
+            ],
+            "content": "{\n  \"model\": \"text-davinci-003\",\n  \"prompt\": \"Say this is a test\",\n  \"max_tokens\": 7,\n  \"temperature\": 0,\n  \"top_p\": 1,\n  \"n\": 1,\n  \"stream\": false,\n  \"logprobs\": null,\n  \"stop\": \"\\n\"\n}\n",
+            "mappings": [
+              {
+                "path": "response",
+                "var": "response"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "644055b748058fc0549f71a0",
+                  "id": "644055b748058fc0549f71b2",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -413.7289576455761,
+                          -503.05423496499657
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -379.1925010092608,
+                          -503.05423496499657
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -379.1925010092608,
+                          -629.0516714586684
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -344.65604437294576,
+                          -629.0516714586684
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "644055b748058fc0549f71b3"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "644055b748058fc0549f71b1"
+        },
+        "644055b748058fc0549f71b5": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Ask any question, and we'll use the response AI step to provide a contextual response."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "644055b748058fc0549f71b8",
+                  "id": "644055b748058fc0549f71b6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "644055b748058fc0549f71b5"
+        },
+        "644055b748058fc0549f71b8": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "userQuestion"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "644055b748058fc0549f71a2",
+                  "id": "644055b748058fc0549f71b9",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -844.9078489697288,
+                          -459.89926333884864
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -794.8186058013281,
+                          -459.89926333884864
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -794.8186058013281,
+                          -629.8043966418845
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -744.7293626329274,
+                          -629.8043966418845
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "644055b748058fc0549f71ba"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "644055b748058fc0549f71b8"
+        },
+        "645d700983103cca7a3ce8a1": {
+          "type": "block",
+          "data": {
+            "name": "OpenAI API Call",
+            "color": "#000000",
+            "steps": [
+              "645d700983103cca7a3ce8a9"
+            ]
+          },
+          "nodeID": "645d700983103cca7a3ce8a1",
+          "coords": [
+            -458.7455755454427,
+            -385.92907796774153
+          ]
+        },
+        "645d700983103cca7a3ce8a3": {
+          "type": "block",
+          "data": {
+            "name": "Error",
+            "color": "#dc8879",
+            "steps": [
+              "645d700983103cca7a3ce8ad"
+            ]
+          },
+          "nodeID": "645d700983103cca7a3ce8a3",
+          "coords": [
+            -54.718758907809104,
+            -230.02465870405075
+          ]
+        },
+        "645d700983103cca7a3ce8a5": {
+          "type": "block",
+          "data": {
+            "name": "Response",
+            "color": "#000000",
+            "steps": [
+              "645d700983103cca7a3ce8b0"
+            ]
+          },
+          "nodeID": "645d700983103cca7a3ce8a5",
+          "coords": [
+            -58.67253999914436,
+            -385.17641048939464
+          ]
+        },
+        "645d700983103cca7a3ce8a7": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "#000000",
+            "steps": [
+              "645d700983103cca7a3ce8b3",
+              "645d700983103cca7a3ce8b6"
+            ]
+          },
+          "nodeID": "645d700983103cca7a3ce8a7",
+          "coords": [
+            -889.9242680306161,
+            -385.52401913515536
+          ]
+        },
+        "645d700983103cca7a3ce8a9": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.openai.com/v1/completions",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "val": "Bearer <ADD API KEY HERE>"
+              }
+            ],
+            "content": "{\n  \"model\": \"text-davinci-003\",\n  \"prompt\": \"{userQuestion}\",\n  \"max_tokens\": 7,\n  \"temperature\": 0,\n  \"top_p\": 1,\n  \"n\": 1,\n  \"stream\": false,\n  \"logprobs\": null,\n  \"stop\": \"\\n\"\n}\n",
+            "mappings": [
+              {
+                "path": "response",
+                "var": "response"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d700983103cca7a3ce8a5",
+                  "id": "645d700983103cca7a3ce8ab",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -292.7441486073894,
+                          -232.17686565434866
+                        ]
+                      },
+                      {
+                        "point": [
+                          -258.2041486073892,
+                          -232.17686565434866
+                        ]
+                      },
+                      {
+                        "point": [
+                          -258.2041486073892,
+                          -358.17686565434866
+                        ]
+                      },
+                      {
+                        "point": [
+                          -223.6741486073892,
+                          -358.17686565434866
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": "645d700983103cca7a3ce8ad",
+                  "id": "645d700983103cca7a3ce8aa",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -292.7441486073894,
+                          -177.67686565434866
+                        ]
+                      },
+                      {
+                        "point": [
+                          -256.7341486073894,
+                          -177.67686565434866
+                        ]
+                      },
+                      {
+                        "point": [
+                          -256.7341486073894,
+                          -150.52686565434868
+                        ]
+                      },
+                      {
+                        "point": [
+                          -220.71414860738918,
+                          -150.52686565434868
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d700983103cca7a3ce8a9"
+        },
+        "645d700983103cca7a3ce8ad": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Error"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d700983103cca7a3ce8ae"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d700983103cca7a3ce8ad"
+        },
+        "645d700983103cca7a3ce8b0": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "{{[response].response}} "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d700983103cca7a3ce8b1"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d700983103cca7a3ce8b0"
+        },
+        "645d700983103cca7a3ce8b3": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "This flow captures a users question and sends it to the OpenAI API"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d700983103cca7a3ce8b6",
+                  "id": "645d700983103cca7a3ce8b4"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d700983103cca7a3ce8b3"
+        },
+        "645d700983103cca7a3ce8b6": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "userQuestion"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d700983103cca7a3ce8a1",
+                  "id": "645d700983103cca7a3ce8b7",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -723.9241486073893,
+                          -211.52686565434868
+                        ]
+                      },
+                      {
+                        "point": [
+                          -673.8341486073894,
+                          -211.52686565434868
+                        ]
+                      },
+                      {
+                        "point": [
+                          -673.8341486073894,
+                          -358.92686565434866
+                        ]
+                      },
+                      {
+                        "point": [
+                          -623.7441486073892,
+                          -358.92686565434866
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "645d700983103cca7a3ce8b8"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d700983103cca7a3ce8b6"
+        }
+      },
+      "diagramID": "64fb4f637b74118cd02727b3"
+    },
+    "64fb4f637b74118cd02727b2": {
+      "_id": "64fb4f637b74118cd02727b2",
+      "name": "Help user",
+      "offsetX": 208.13184880233382,
+      "offsetY": 41.90596411338035,
+      "zoom": 80,
+      "variables": [],
+      "versionID": "64fb4f627b74118cd02727b0",
+      "creatorID": 96493,
+      "modified": 1694191459,
+      "type": "COMPONENT",
+      "menuItems": [],
+      "nodes": {
+        "5f9f562f11b31520c2a2a6e1": {
+          "nodeID": "5f9f562f11b31520c2a2a6e1",
+          "type": "start",
+          "coords": [
+            439.83518899708275,
+            197.61754485827456
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e3",
+                  "id": "5fde75904a001a20aa671626",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          504.47190774708275,
+                          219.61754485827456
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          574.061301773932,
+                          219.61754485827456
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          574.061301773932,
+                          148.2456817626953
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          643.6506958007812,
+                          148.2456817626953
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e3": {
+          "nodeID": "5f9f562f11b31520c2a2a6e3",
+          "type": "block",
+          "coords": [
+            808.6506721313523,
+            121.24568139701532
+          ],
+          "data": {
+            "name": "Help Message",
+            "color": "standard",
+            "steps": [
+              "60b7e6f5d4b17f0ce7bddeb6",
+              "5f9f562f11b31520c2a2a6e4"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6e4": {
+          "nodeID": "5f9f562f11b31520c2a2a6e4",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "reprompt",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": "Do you want to continue?"
+                },
+                {
+                  "voice": "Alexa",
+                  "content": "Please say yes or no."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "AMAZON.YesIntent",
+                "mappings": []
+              },
+              {
+                "intent": "AMAZON.NoIntent",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "5fde75904a001a20aa671628"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "5fde75904a001a20aa671629"
+                },
+                {
+                  "type": 2,
+                  "target": "5f9f562f11b31520c2a2a6e6",
+                  "id": "5fde75904a001a20aa67162a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          973.6507263819777,
+                          339.2456505209935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1051.8287345472486,
+                          339.2456505209935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1051.8287345472486,
+                          439.4923656273935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          1130.0067427125193,
+                          439.4923656273935
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e5": {
+          "nodeID": "5f9f562f11b31520c2a2a6e5",
+          "type": "exit",
+          "data": {
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e6": {
+          "nodeID": "5f9f562f11b31520c2a2a6e6",
+          "type": "block",
+          "coords": [
+            1295.0066750587603,
+            408.4923354011805
+          ],
+          "data": {
+            "name": "Exit",
+            "color": "red",
+            "steps": [
+              "60b7e708d4b17f0ce7bddebe",
+              "5f9f562f11b31520c2a2a6e5"
+            ]
+          }
+        },
+        "60b7e6f5d4b17f0ce7bddeb6": {
+          "nodeID": "60b7e6f5d4b17f0ce7bddeb6",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "You said help. Do you want to continue?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e4",
+                  "id": "60b7e6f5d4b17f0ce7bddeb9"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "60b7e708d4b17f0ce7bddebe": {
+          "nodeID": "60b7e708d4b17f0ce7bddebe",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Bye for now."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e5",
+                  "id": "60b7e708d4b17f0ce7bddec1"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        }
+      },
+      "diagramID": "64fb4f637b74118cd02727b2"
+    },
+    "64fb4f637b74118cd02727b1": {
+      "_id": "64fb4f637b74118cd02727b1",
+      "name": "End session",
+      "offsetX": 224,
+      "offsetY": 59.19999999999999,
+      "zoom": 80,
+      "variables": [],
+      "versionID": "64fb4f627b74118cd02727b0",
+      "creatorID": 96493,
+      "modified": 1694191459,
+      "type": "COMPONENT",
+      "menuItems": [],
+      "nodes": {
+        "5f9f562f11b31520c2a2a6e7": {
+          "nodeID": "5f9f562f11b31520c2a2a6e7",
+          "type": "start",
+          "coords": [
+            420,
+            176
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#43494E",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6e9",
+                  "id": "5fde6fe15bc1c56319fad3b2",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          484.63671875,
+                          198
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          562.8027954101562,
+                          198
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          562.8027954101562,
+                          147.9479217529297
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          640.9688720703125,
+                          147.9479217529297
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          }
+        },
+        "5f9f562f11b31520c2a2a6e9": {
+          "nodeID": "5f9f562f11b31520c2a2a6e9",
+          "type": "block",
+          "coords": [
+            805.9688890631405,
+            120.94792332948695
+          ],
+          "data": {
+            "name": "Exit",
+            "color": "red",
+            "steps": [
+              "60b7e6e1d4b17f0ce7bdde9c",
+              "5f9f562f11b31520c2a2a6ea"
+            ]
+          }
+        },
+        "5f9f562f11b31520c2a2a6ea": {
+          "nodeID": "5f9f562f11b31520c2a2a6ea",
+          "type": "exit",
+          "data": {
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          }
+        },
+        "60b7e6e1d4b17f0ce7bdde9c": {
+          "nodeID": "60b7e6e1d4b17f0ce7bdde9c",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Okay, this session is now ending."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "5f9f562f11b31520c2a2a6ea",
+                  "id": "60b7e6e1d4b17f0ce7bdde9f"
+                }
+              },
+              "dynamic": []
+            }
+          }
+        }
+      },
+      "diagramID": "64fb4f637b74118cd02727b1"
+    }
+  },
+  "variableStates": []
+}
