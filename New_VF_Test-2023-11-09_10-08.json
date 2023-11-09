@@ -1,0 +1,470 @@
+{
+  "_version": "1.2",
+  "project": {
+    "_id": "654bdde74a2abe00077890f2",
+    "name": "New VF Test",
+    "teamID": "OoEKmK2Kja",
+    "devVersion": "654bdde72649dbd4c6cb7189",
+    "platform": "voiceflow",
+    "type": "voice",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "customThemes": [],
+    "_version": 1.2,
+    "updatedAt": "2023-11-08T19:15:57.662Z",
+    "creatorID": 96493,
+    "createdAt": "2023-11-08T19:13:43.000Z",
+    "updatedBy": 96493,
+    "apiPrivacy": "private",
+    "aiAssistSettings": {
+      "aiPlayground": true
+    }
+  },
+  "version": {
+    "_id": "654bdde72649dbd4c6cb7189",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "VF.YES",
+          "name": "VF.YES",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "VF.NO",
+          "name": "VF.NO",
+          "inputs": [],
+          "slots": []
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {},
+      "platform": "voiceflow"
+    },
+    "_version": 4.07,
+    "name": "Initial Version",
+    "projectID": "654bdde74a2abe00077890f2",
+    "manualSave": false,
+    "autoSaveFromRestore": false,
+    "topics": [
+      {
+        "sourceID": "64dbb6696a8fab0013dba13f",
+        "type": "DIAGRAM"
+      }
+    ],
+    "components": [],
+    "rootDiagramID": "64dbb6696a8fab0013dba13f",
+    "creatorID": 96493,
+    "domains": [
+      {
+        "id": "cloq51t4d12zr07jw7g412l5r",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba13f"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba13f"
+      }
+    ],
+    "prototype": {
+      "type": "voice",
+      "data": {
+        "name": "New VF Test",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "VF.YES",
+            "name": "VF.YES",
+            "inputs": [
+              {
+                "text": "yes"
+              },
+              {
+                "text": "yea"
+              },
+              {
+                "text": "ok"
+              },
+              {
+                "text": "okay"
+              },
+              {
+                "text": "yup"
+              },
+              {
+                "text": "ya"
+              },
+              {
+                "text": "sure"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "VF.NO",
+            "name": "VF.NO",
+            "inputs": [
+              {
+                "text": "no"
+              },
+              {
+                "text": "nope"
+              },
+              {
+                "text": "nay"
+              },
+              {
+                "text": "nah"
+              },
+              {
+                "text": "no way"
+              },
+              {
+                "text": "negative"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba13f",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {},
+        "extraSlots": [],
+        "extraIntents": [],
+        "usedIntentsSet": [
+          "VF.YES",
+          "VF.NO"
+        ],
+        "platform": "voiceflow",
+        "goToIntentsSet": [],
+        "products": {},
+        "interfaces": [],
+        "permissions": [],
+        "usedEventsSet": []
+      },
+      "settings": {},
+      "platform": "voiceflow"
+    }
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba13f": {
+      "_id": "64dbb6696a8fab0013dba13f",
+      "offsetX": 277.7335343985862,
+      "offsetY": 80.34917060583163,
+      "zoom": 100,
+      "variables": [],
+      "name": "ROOT",
+      "versionID": "654bdde72649dbd4c6cb7189",
+      "creatorID": 96493,
+      "modified": 1699470823,
+      "intentStepIDs": [],
+      "type": "TOPIC",
+      "nodes": {
+        "start00000000000000000000": {
+          "nodeID": "start00000000000000000000",
+          "type": "start",
+          "coords": [
+            352.83308200176725,
+            149.56353674271045
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "654bddfb49f8c476c7ee8eba",
+                  "id": "60b7e7cad4b17f0ce7bddf11",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          417.36,
+                          171.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          485.32,
+                          171.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          485.32,
+                          115.65
+                        ]
+                      },
+                      {
+                        "point": [
+                          553.27,
+                          115.65
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          }
+        },
+        "654bddfb49f8c476c7ee8eb8": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "This is a test. Does it work well?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "654bddfb49f8c476c7ee8eb9"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "654bddfb49f8c476c7ee8eb8"
+        },
+        "654bddfb49f8c476c7ee8eba": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "654bddfb49f8c476c7ee8eb8",
+              "654bde2049f8c476c7ee8ec0"
+            ]
+          },
+          "nodeID": "654bddfb49f8c476c7ee8eba",
+          "coords": [
+            718.2664656014138,
+            88.65082939416834
+          ]
+        },
+        "654bde2049f8c476c7ee8ec0": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "VF.YES",
+                "mappings": []
+              },
+              {
+                "intent": "VF.NO",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "654bde2049f8c476c7ee8ec2"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "654bde3649f8c476c7ee8ecb",
+                  "id": "654bde2049f8c476c7ee8ec1",
+                  "data": {}
+                },
+                {
+                  "id": "654bde2649f8c476c7ee8ec6",
+                  "type": "",
+                  "target": "654bde5549f8c476c7ee8ed2",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "654bde2049f8c476c7ee8ec0"
+        },
+        "654bde3649f8c476c7ee8ec9": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Glad to hear it."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "654bde6a49f8c476c7ee8edc",
+                  "id": "654bde3649f8c476c7ee8eca",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "654bde3649f8c476c7ee8ec9"
+        },
+        "654bde3649f8c476c7ee8ecb": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "654bde3649f8c476c7ee8ec9"
+            ]
+          },
+          "nodeID": "654bde3649f8c476c7ee8ecb",
+          "coords": [
+            1176.2664656014138,
+            90.65082939416837
+          ]
+        },
+        "654bde5549f8c476c7ee8ed2": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "We'll try harder."
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "654bde6a49f8c476c7ee8edc",
+                  "id": "654bde5549f8c476c7ee8ed3",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "654bde5549f8c476c7ee8ed2"
+        },
+        "654bde5549f8c476c7ee8ed4": {
+          "type": "block",
+          "data": {
+            "name": "New Block 3",
+            "steps": [
+              "654bde5549f8c476c7ee8ed2"
+            ]
+          },
+          "nodeID": "654bde5549f8c476c7ee8ed4",
+          "coords": [
+            1173.7664656014135,
+            239.31353674271043
+          ]
+        },
+        "654bde6a49f8c476c7ee8edb": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "654bde6a49f8c476c7ee8edb"
+        },
+        "654bde6a49f8c476c7ee8edc": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4",
+            "steps": [
+              "654bde6a49f8c476c7ee8edb"
+            ]
+          },
+          "nodeID": "654bde6a49f8c476c7ee8edc",
+          "coords": [
+            1578.7664656014135,
+            168.06353674271043
+          ]
+        }
+      },
+      "diagramID": "64dbb6696a8fab0013dba13f",
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": []
+    }
+  },
+  "variableStates": []
+}
