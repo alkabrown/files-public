@@ -8,7 +8,7 @@
     "platform": "voiceflow",
     "type": "voice",
     "platformData": {
-      "invocationName": "template project general"
+      "invocationName": "voiceflow test"
     },
     "members": [],
     "linkType": "STRAIGHT",
